@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">		
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">		
+<meta name="google-site-verification" content="" />		
+<meta name="description" content="命名我最會獎：命名若經採用，即送價值$30,000元旅遊券，為自己找個時間出遊，放鬆一「夏」吧！我最幸運獎：凡參與命名活動，即可獲得抽獎機會。共抽出100位幸運得主，送價值$160元的插畫作家afu日本製森林系紙膠帶乙份。">
+<meta name="keywords" content="BuBuTrip、親子自駕旅遊網、吉祥物、命名我最會獎、$30,000元、旅遊券、放鬆一「夏」、我最幸運獎、命名活動、抽獎、100位幸運得主、$160元、插畫作家afu、日本製森林系紙膠帶、彩虹森林、小飛鼠、Dyson戴森無線吸塵器、捷安特滑步車" />
+<meta name="url" content="http://www.bubutrip.com.tw/" />	
+<meta property="og:locale" content="zh_TW" />		
+<meta property="og:site_name" content="【BuBuTrip招募新會員】無料暢遊動物園，再抽Dyson和捷安特！" />		
+<meta property="og:title" content="【BuBuTrip招募新會員】無料暢遊動物園，再抽Dyson和捷安特！" />			
+<meta property="og:url" content="http://www.bubutrip.com.tw/" />
+<meta property="og:type" content="Website" /><meta property="og:image" content="/event/defimg/share2.jpg"></meta>	
+<meta property="og:description" content="落腳在BuBuTrip的可愛小飛鼠，熱情邀請你參加派對！現場除了和小飛鼠歡樂互動、遊戲體驗拿禮物，更加碼抽出人氣大好物「Dyson吸塵器」和親子界最夯的「捷安特Push Bike」唷！" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<title>BuBuTrip吉祥物創意命名拿好禮</title>
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script><![endif]-->
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/m.style.css">
+
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/m.main.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52357786-10', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+<body>
+<div id="wrapper">
+	<div id="logo"><a href="http://www.bubutrip.com.tw/" target="_blank"><img src="images/logo.png"></a></div>	
+	<div class="activityTxtBox">		
+		<div class="activityTxt">
+			<h2><img src="images/m_activity_title.png" alt="「BuBuTrip 吉祥物見面會贈票活動」注意事項"></h2>
+			<h3 class="actColorB"><i><img src="images/activity_scroll_btn.png"></i>&lt;活動說明&gt;</h3>
+			<p>BuBuTrip親子自駕旅遊網(http://www.bubutrip.com.tw/)的吉祥物終於誕生囉！為此，BuBuTrip特別在這個暑假，在大小朋友最愛的臺北市立動物園，舉辦吉祥物見面會活動，更棒的是，只要透過「BuBuTrip吉祥物見面會贈票活動網站(以下簡稱「本活動網站」)，註冊為新會員或登入會員，就可以獲得免費動物園門票，BuBuTrip邀請各位爸比媽咪帶著家裡寶貝一起來參加歡樂無比的遊園會！</p>
+			<h3 class="actColorO"><i><img src="images/activity_scroll_btn.png"></i>&lt;活動時間&gt;</h3>
+			<p>104年7月28曰至104年8月18曰</p>
+			<h3 class="actColorY"><i><img src="images/activity_scroll_btn.png"></i>&lt;活動方式&gt;</h3>
+			<p>動物園門票索取事宜，分為新加入會員(從本活動網站註冊之會員)及既有會員：</p>
+			<ol>
+				<li>104年7月28曰號後新加入之會員：
+					<ul>
+						<li>從本活動網站完成註冊程序，並將本活動分享至Facebook個人專頁後，前2,000名可獲得「臺北市立動物園免費入園券乙張」。</li>
+						<li>若您為前2,000名新會員，系統會自動將「索票憑證」寄到您的E-Mail信箱，請您密切注意註冊BuBuTrip會員所填寫的E-Mail信箱。（若以Facebook註冊登入者，請至註冊Facebook時所使用的信箱查看；也就是您登入Facebook的帳號)</li>
+						<li>若已經註冊成功，十分鐘後仍未收到索票憑證，請先至垃圾信箱查看。若確認仍未收到憑證，請透過E-Mail方式（service@bubutrip.com.tw）或撥打活動專線(02)2501-0217與主辦單位聯繫。</li>
+					</ul>
+				</li>
+				<li>104年7月28曰號前註冊之會員：
+					<ul>
+						<li>由本活動網站登入BuBuTrip會員，即可獲得免費動物園票抽獎資格，BuBuTrip將抽出100名幸運得主。</li>
+						<li>得獎名單於104年8月18日公布於活動網頁，主辦單位將在當日以E-Mail將「索票憑證」寄給得獎者，請得獎者密切注意註冊BuBuTrip會員所填寫的E-Mail信箱（若以Facebook註冊登入者，請至註冊Facebook時所使用的信箱查看；也就是您登入Facebook的帳號)</li>
+					</ul>
+				</li>
+			</ol>
+			<h3 class="actColorB"><i><img src="images/activity_scroll_btn.png"></i>&lt;兌換實體入園門票方式&gt;</h3>
+			<p>吉祥物見面會當日，憑「索票憑證」即可兌換入園門票。</p>
+			<ol>
+				<li>兌換時間：民國104年9月13(日)，9:00-15:30</li>
+				<li>兌換地點：臺北市立動物園門口廣場 (請依現場指示牌前往指定地點兌換)。</li>
+				<li>兌換方式：出示「索票憑證」。可將索票憑證影印下來或直接經由行動裝置(手機、平板等)出示索票憑證，由現場工作人員核對流水號及註冊信箱，並發給動物園入園門票。</li>
+				<li>其他：
+					<ul>
+						<li>每個索票憑證可兌換動物園全票乙張。</li>
+						<li>每位成年人(18歲以上)另可獲得吉祥物見面會摸彩券乙張。</li>
+						<li>原訂活動日期，因颱風來襲，改至9/13(日)舉行。</li>
+					</ul>
+				</li>
+			</ol>						
+			<h3 class="actColorB"><i><img src="images/activity_scroll_btn.png"></i>&lt;活動主辦單位&gt;</h3>
+			<p>本活動由和泰汽車股份有限公司主辦(以下簡稱主辦單位)，若對於本活動有任何問題（包含個人資料保護事項），請透過E-Mail方式（service@bubutrip.com.tw）或撥打活動專線(02)2501-0217與主辦單位聯繫。</p>
+			<h3 class="actColorK"><i><img src="images/activity_scroll_btn.png"></i>&lt;注意事項&gt;</h3>
+			<ol>
+				<li>本次活動僅限於設籍於台灣、金門、澎湖、馬祖地區者參加，惟主辦單位(含其關係企業)之員工不能參與本活動，主辦單位不處理寄送獎品至海外地區之事宜。</li>
+				<li>參加本活動之所有資料均由主辦單位保有，作為參加者領取獎品依據等活動相關事宜之用。主辦單位將善盡保密之責，絕不外洩，敬請安心填寫。</li>
+				<li>本活動注意事項載明於活動網頁中，參加者參與本活動同時，即同意接受本活動注意事項之規範。如有違反本活動注意事項之行為（如：攻擊網站活動及惡意註冊等違反公平平原則之行為），主辦單位得取消其參加或得獎資格，並對於任何破壞本活動之行為保留法律追訴權。</li>
+				<li>參加者保證所有填寫或提出之資料均為正確，且未冒用或盜用任何第三人之資料。如因填寫或提出之資料有錯誤致主辦單位無法通知其得獎訊息時，或所提出資料雖正確，主辦單位仍無法聯繫上得獎者時，主辦單位不負任何責任，且視為得獎者放棄得獎資格，名額不再遞補，亦不另行補發獎項。如有致損害於主辦單位或其他任何第三人，參加者應負一切民刑事責任。</li>
+				<li>如有任何因電腦、網路、電話、技術、郵件等不可歸責於主辦單位之事由，致無法通知得獎人，得獎人因而未能於回覆期限前回覆致喪失得獎資格，或寄送獎品有延遲、損毀或遺失等情況，主辦單位不負任何法律責任，參加者亦不得因此異議。</li>
+				<li>本活動因故無法進行時，主辦單位有權決定取消、終止、修改或暫停本活動。主辦單位保有審核參加資格之權利。</li>
+				<li>主辦單位保有審核參加資格之權利。</li>
+				<li>參加本活動者同意主辦單位基於活動目的，得公布其得獎名稱或部分資料於網站。</li>
+				<li>得獎者同意主辦單位對所有因使用或領取獎項之後果無須負責。主辦單位寄出獎項後，如獎項遺失或被竊，主辦單位不再發給任何證明或補償。</li>
+				<li>主辦單位保留更換其他等值獎項之權利。</li>
+				<li>本活動之所有獎品以實物為準，獎項部分不得折抵現金；主辦單位保留更換獎品之權利。依財政部國稅局規定，得獎金額或獎項若為新台幣1,000(含)-19,999元，得獎人須申報當年所得，活動廠商將於年底寄發扣繳憑單予獲獎人。得獎金額或獎項若超過新台幣20,000元，依法應扣繳10%之稅金(非中湖民國境內居住之個人，依法扣繳20%稅金)，得獎者須完稅後方得領獎，並由主辦單位代為申報並寄送扣繳憑單，若得獎者未能依法繳納稅金，及視為喪失資格；其他未盡事宜，悉依中華民國稅法相關規定辦理。以上稅法規定若不願意配合，則視為自動棄權，不具得獎資格。</li>
+				<li>其他未盡事宜，悉依主辦單位相關規定。</li>
+				<li>若因本活動發生訴訟時，以臺灣臺北地方法院為第一審管轄法院。</li>
+			</ol>
+		</div>
+		<img src="images/m_activity_box.png">
+	</div>
+	<nav class="nav2">
+		<a href="m.meeting.php" class="floatL"><img src="images/m_meeting_btn.png" alt="見面會好康"></a>
+		<a href="m.register.php" class="floatR"><img src="images/m_ticket_btn.png" alt="拿免費門票"></a>
+		<br clear="both" />
+	</nav>
+	<div id="copyright">Copyright © 2015 all rights reserved.</div>	
+</div>
+</body>
+</html>

@@ -1,0 +1,110 @@
+@charset "utf-8";
+.hide {font-size:0; line-height:0; color:#fff; text-indent:-5000px; }
+*:focus {outline: 0;}
+/* Change the white to any color ;) */
+input:-webkit-autofill {-webkit-box-shadow: 0 0 0px 1000px #84d8d1 inset;-webkit-text-fill-color: #fff !important;}
+.placeholder { color:#868686; }
+body{ font-family:"微軟正黑體","Microsoft JhengHei","Helvetica Neue",Helvetica,Arial,sans-serif,"Apple LiGothic"; font-size: 1em; line-height: 1.6em;color: #595757; background:#84d8d1;}
+html, body{overflow-x: hidden;}
+img{width: 100%; display: block;}
+div{position: relative;}
+p{padding-top: 0.6em;}
+a, input, textarea{outline: none;hlbr:expression(this.onFocus=this.blur()); color: #000;}
+h2{width: 98%; margin: 0 auto; padding: 5% 0;}
+#wrapper{max-width: 960px;min-width: 320px; margin: 0 auto;}
+#copyright{padding-top:1.5em; color: #000; font-size: 0.5em;}
+#copyright img{float: left;}
+#copyright span{position: absolute;bottom:0.5em; left: 0.5em;}
+#logo{top:10px; left: 2%; width: 30%;position: absolute;z-index: 2;}
+
+/*====== input ======*/
+input[type="email"], input[type="password"], input[type="text"], .areano select{border: 1px solid #595757; background: transparent;-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px; padding: 0.8em 5%; width: 90%;font-size: 1em;font-family:"微軟正黑體","Microsoft JhengHei","Helvetica Neue",Helvetica,Arial,sans-serif,"Apple LiGothic"; color: #fff; margin-bottom: 5%;}
+input[type="checkbox"] {display:none;}
+input[type="checkbox"] + label span {background:url("../images/m/checkbox.jpg") 0 0 no-repeat;vertical-align:middle; width: 17px; height: 17px;display: inline-block; cursor:pointer; float: left;margin: 0.3em 0 0;}
+input[type="checkbox"]:checked + label span {background-position: 0 bottom;}
+/*====== nav ======*/
+
+/*====== index ======*/
+.inTitle{padding-top: 15%;}
+.inTitle a{position: absolute; display:block; width: 20%;height: 100%; top: 0;right: 0;}
+.inGetCodeBtn{width: 60%; margin: 0 auto; display: block;}
+.inTxt{width: 90%;margin: 5% auto 10%;}
+.inDown{width: 30%; margin: 0 auto; padding-bottom: 5%;}
+#prize img{float:left;}
+.inScore{position: absolute;right: 0; z-index: 2;bottom:40px; width: 30%;}
+.inScore img{width: 50%;}
+.inScore span{float: left; font-size: 1.5em; color: #fff;padding: 0.5em 3px 0 0;}
+
+/*====== login ======*/
+.success, .checkBox{display: none;}
+.fancybox-skin {background:#84d8d1;-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px; padding: 0;}
+.fancybox-inner {overflow:inherit;}
+.bn-action{width:100%; height: 100%; display: block; position: absolute; top:0;left: 0;}
+.checkCloseBtn{width:30px; height: 30px; position:absolute; top:0; right: 0; z-index: 99;}
+.sns-login, #login-form{width: 80%; margin: 0 auto;}
+#login-form{padding-top: 5%;}
+#login-form .submit, .sns-login a, #reg-form .submit{-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px;background: #67a29e; text-align: center; padding: 0.3em 1em; width: 100%; color: #fff; font-size: 1.5em;font-family:"微軟正黑體","Microsoft JhengHei","Helvetica Neue",Helvetica,Arial,sans-serif,"Apple LiGothic"; border:none; font-weight: bold;}
+.sns-login{border-bottom: 1px solid #868686;}
+.sns-login a{text-decoration: none; font-size: 1em; display: block;width: 90%; font-weight: normal; padding:0.7em 1em; margin-bottom: 5%;}
+.sns-login a.sns-fb{background: #354576;}
+.sns-login a.sns-gp{background: #b03a33;}
+.sns-login a > img{width: 1.2em; padding: 0 0.2em; display: inline-block;}
+.btns-alt{text-align: center;font-size: 2em; font-weight: bolder; padding: 10% 0;}
+.btns-alt a{text-decoration: none; color: #f08300;}
+
+/*====== register ======*/
+#modal-tos{display: none; }
+.md-hd{text-align: center; font-size: 1.2em; padding:1em 0; color: #fff; font-weight: bolder;}
+.tos-txt{ overflow-y:auto; width: 90%; height: 300px; background: #fff; padding: 1em 5%;-webkit-border-radius: 20px;-moz-border-radius: 20px;border-radius: 20px;}
+.tos-txt h3{font-size: 1.2em; padding-top:1.5em; color: #228c3a;}
+#reg-form{width: 95%; margin: 0 auto;}
+#reg-form .submit{background: #f08300; margin-top: 5%;}
+.areano select{width:65%; float: right;}
+.areano select option{color: #333;}
+.fields li{clear: both;}
+#reg-form .field label{width: 30%; padding-top: 0.8em; text-align: right; float: left;}
+#reg-form .field input{width: 55%; float: right;}
+#reg-form .btns{clear: both; border-top: 1px solid #868686; padding: 5% 2%; }
+
+/*====== final ======*/
+.finalActivityBtn{width: 26%; margin: 8% 37% 0; display:inline-block;}
+.finalScore{position: absolute;right: 3%; z-index: 2;top:20px;width: 32%;}
+.finalScore img{width: 52%; float: right;}
+.finalScore span{float: right; font-size: 1.5em; color: #fff;padding: 17% 3px 0 0;}
+.finalTxt{width:85%; margin: 0 auto; padding: 10% 0 3%; display: block;}
+.finalNav{width: 100%;}
+.finalNav a{width: 45%; display: inline-block;}
+.finalLBtn{padding: 0 1% 0 4%};
+.finalRBtn{padding: 0 4% 0 1%};
+.finalDown{width: 100%;}
+.finalDown img{display: block;}
+#app{background: #fff;clear:both;}
+.finalUp{width: 30%; margin: 0 auto; padding: 5% 0 0;}
+#fbLikeBox{display: none;}
+a.fbLikeCloseBtn{position: absolute; top:20%; right: 10%; background: url("../images/like_close_btn.png") 0 0 no-repeat; display: block; width: 33px; height: 33px;}
+a.fbLikeCloseBtn:hover{background-position: 0 -33px;}
+a.fbLikeDoneBtn{position: absolute; bottom:15px; left: 50%; margin-left: -32px; background: url("../images/like_close_txt_btn.gif") 0 0 no-repeat; display: block; width: 64px; height: 12px;}
+a.fbLikeDoneBtn:hover{background-position: 0 -12px;}
+.fbBox{width: 300px;position: absolute; bottom: 10%; left:50%; margin-left: -150px;}
+.whiteSideL, .whiteSideR{position: absolute; background:#fff;}
+.whiteSideL{left: 0;}
+.whiteSideR{right: 0;}
+
+/*====== get score ======*/
+.getScoreOkBtn{position: absolute; top:0; left: 0; width: 100%; display: none;}
+
+@media screen and (min-device-width: 480px) {
+    body{font-size: 1.2em;}
+    .inScore span{float: left; font-size: 1.5em; color: #fff;padding: 0.8em 3px 0 0;}
+}
+@media screen and (min-device-width: 700px) {
+    body{font-size: 2em;}
+    .inScore span{float: left; font-size: 1.5em; color: #fff;padding: 0.8em 3px 0 0;}
+    input[type="checkbox"] + label span{margin:0.6em 0.2em 0;}
+}
+
+@media screen and (max-device-height: 480px) {
+    .finalTxt{width:80%; margin: 0 auto; padding: 5% 0 3%; display: block;}
+    .inTitle{padding-top: 10%;}
+    .inTxt{width: 80%;margin: 5% auto 5%;}
+}

@@ -1,0 +1,90 @@
+@charset "utf-8";
+.hide {font-size:0; line-height:0; color:#fff; text-indent:-5000px; }
+body{ font-family:"微軟正黑體","Microsoft JhengHei","Helvetica Neue",Helvetica,Arial,sans-serif,"Apple LiGothic"; font-size: 1em; line-height: 1.6em;color: #717071;}
+body, html, .fullpage, .section{overflow:hidden;}
+div{position: relative;}
+p{padding-top: 0.8em;}
+a, input, textarea{outline: none;hlbr:expression(this.onFocus=this.blur()); color: #000;}
+ol li{list-style:decimal;}
+.conBox1 form input::-ms-clear {display: none;}
+.purpleTxt{color: #7e308c;}
+.greenTxt{color:#1ea939;}
+.highlightTxt{color: #e85513; font-size: 1.4em; font-weight: bold;}
+#copyright, #logo{position: fixed;z-index: 10;}
+#copyright{bottom: 10px;right: 10px; color: #fff; font-size: 12px;}
+#logo{top:30px; left: 35px; width:203px;}
+
+.index, .contents{width: 1px; margin: 0 auto;}
+.index{height:720px;}
+.index > div, .contents > div, .inBox1 > div, .inBox2 > div, #scrollBox li, .conBox1 form,.conBox1 h2, .conBox1 ol,.conBox2, .conBox2 > img, .conBox2 > a, .conBox2 > div, .nameBg, .nameBg div, .btn, .touchMeOv, .goticketBtn, .touchMe, .tail, #activity > div, #activity h3 > i, .goname{position: absolute;}
+.inBox1,.inBox2{z-index: 1;}
+.inSquirrel,.inTitle{z-index: 2;}
+.inActivity, .inPrize{z-index: 3;}
+
+/*====== index ======*/
+.scrollBtn{height: 48px; text-align: center;bottom:3%;width: 250px;}
+.inActivity{width:109px;}
+.inPrize{width:218px;}
+.scrollBtn a, .inActivity a, .inPrize a{width: 100%; left:0;}
+.inBox1 > img, .inTitle img, .inSquirrel img, .inActivity img, .inPrize img{float: right;}
+.inBox1{width:591px;}
+.inBox1 h2{width:108px;}
+.inBox2{width:530px; }
+.inTitle{right: -180px; top:5%; width:595px;}
+.inSquirrel{width:423px;}
+.inBox1 > div, .inBox2 > div{top:25%;}
+.inBox2 > div {left: 12%; line-height: 2em;}
+.inBox2 > div > img{margin: 1em auto;}
+p.inBox2ST{width: 18em; }
+.inTitle img{display: none;}
+.inSquirrel, .inBox1, .inBox2, .inActivity, .inPrize, .scrollBtn a, .touchMeOv{opacity: 0;}
+
+/*====== contents ======*/
+/*------ form ------*/
+.conBox1{width: 570px; left:-30px;}
+.conSquirrel1{width:572px; z-index: 2;}
+.conBox1 form input, .conBox1 form textarea{border:none; background:none; overflow: hidden; width: 9em;font-size: 2em;font-family:"微軟正黑體","Microsoft JhengHei","Helvetica Neue",Helvetica,Arial,sans-serif,"Apple LiGothic"; line-height: 1.6em;height: 60px;}
+.conBox1 form input{text-align: center;}
+.conBox1 form textarea{height: 200px; margin-top: 4%;line-height: 2.5em;resize: none;width: 120%;font-size: 1.25em;}
+.conBox1 h2{width:342px;}
+.conBox1 ol{font-size: 0.9em; line-height: 1.4em;width:30em;}
+.conBox1 ol > span{display: block; margin-left: -1.8em; color: #804f21;}
+.conBox1 ol li > .highlightTxt{font-size: 0.9em;}
+.sendBtn{width: 174px;}
+.tail{width: 225px;}
+/*------ final ------*/
+.conBox2{width:651px; left:-50px;}
+.conBox2 > div{width: 20em;font-size: 1.4em;line-height: 1.8em;}
+.conBox2 > div .highlightTxt{font-weight: normal;}
+.conBox2 > div p{padding-top: 0.2em; font-size: 0.8em}
+.reviewBtn{width:90px;top:195px;left: 220px;}
+.downloadBtn{width:92px;top:200px;left: 320px;}
+.fbBtn{width:183px;top:185px;left: 420px;}
+.nameBg{width: 273px;z-index: 1; text-align: center;}
+.nameBg div{text-align: center; font-size: 3em; color: #000; width:80%; margin: 40px 0 0 10%;}
+.goticketBtn{width:446px; top:50px; left: 50px;}
+.touchMe{width:124px;}
+/*------ activity ------*/
+#activity > div{width:1192px;left: 50%; margin-left:-596px; text-align: center;}
+#activity > div.activityTxt{text-align: left;}
+#activity h2{width:430px;}
+#activity h3{padding:2em 0 0 35px; font-size: 1.2em; font-weight: bold; display: block; position: relative;}
+#activity h3 > i{width: 33px; display: block;left: 0; top:1.46em;}
+#activity p, #activity ol{padding-left: 35px; width: 93%;}
+#activity p{padding-top: 0;}
+#activity ol li{margin-left: 1.4em;}
+#activity ul li{list-style: disc;}
+.actScrollLine{z-index: 1; width: 18px; margin-left:12px; }
+.actScrollBtn{width:43px; height:55px;position: absolute;}
+.scroll-pane .mCustomScrollBox .mCSB_scrollTools{padding:0;width: 43px;}
+.scroll-pane .mCSB_scrollTools .mCSB_draggerRail{width:43px;background: url('../images/activity_scroll_line.jpg') center 0 no-repeat; z-index: 1;}
+.scroll-pane .mCSB_scrollTools .mCSB_dragger{height:55px;}
+.scroll-pane .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:43px;background: url('../images/activity_scroll_btn.png') 0 0 no-repeat;z-index: 2;}
+.scroll-pane{margin: -190px auto 0;}
+.actColorB{color: #6a3906;}
+.actColorO{color: #e85513;}
+.actColorY{color: #f19500;}
+.actColorK{color: #b18046;}
+.actFL div{float: left; width: 65%;}
+.actFL div.actImg{width: 30%;}
+.goname{width: 130px;z-index: 2; display: block;}

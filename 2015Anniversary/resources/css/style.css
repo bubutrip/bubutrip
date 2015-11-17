@@ -1,0 +1,132 @@
+@charset "utf-8";
+.hide {font-size:0; line-height:0; color:#fff; text-indent:-5000px; }
+*:focus {outline: 0;}
+/* Change the white to any color ;) */
+input:-webkit-autofill {-webkit-box-shadow: 0 0 0px 1000px #84d8d1 inset;-webkit-text-fill-color: #fff !important;}
+.placeholder { color:#868686; }
+body{ font-family:"微軟正黑體","Microsoft JhengHei","Helvetica Neue",Helvetica,Arial,sans-serif,"Apple LiGothic"; font-size: 18px; line-height: 24px;color: #595757; background:#84d8d1;}
+/*body, html, .fullpage, .section{overflow:hidden;}*/
+/*div{position: relative;}*/
+p{padding-bottom: 1em;}
+a{text-decoration: none; color:#595757; }
+a, input, textarea{outline: none;hlbr:expression(this.onFocus=this.blur()); color: #fff;}
+ol li{list-style:decimal;}
+h2{margin:0 auto 45px; width:929px; height: 179px;}
+
+#copyright, #logo{position: fixed;z-index: 10;}
+#copyright{bottom: 10px;left: 10px; color: #000; font-size: 12px;}
+#logo{top:30px; left: 35px; width:203px;}
+
+#contents{position: absolute; top:50%; left: 50%; margin: -400px 0 0 -495px; display: block; width: 990px; height: 800px; }
+.index, .contents{width: 1px; margin: 0 auto;}
+.index{height:720px;}
+
+
+/*====== index ======*/
+.scrollDownBtn{position: absolute;bottom: 0; left: 50%; margin-left: -61px; height: 83px; z-index: 99; display:block;}
+.scrollUpBtn{position: absolute;top:30px; right:30px;height: 94px; z-index: 99;}
+.scrollDownBtn a, .inGetCodeBtn a, .inActivityBtn a{position: absolute; z-index: 10; display: block;}
+.index > div{position: absolute;}
+.inTitle{top:180px; left: 50%; margin-left:-464px; z-index: 2;}
+.inForest{top:58px; left: 150px;z-index: 1;}
+.inCake{top:214px; left: -50px; z-index: 3;}
+.inTxt{top:392px; left: 25px; z-index: 1;}
+.inSquirrel{top:360px; right: 110px; z-index: 3;}
+.inGetCodeBtn{top:64px; right: 110px; z-index: 3; width:218px; height: 310px; display: block;}
+.inActivityBtn{top:205px; right: -50px;z-index: 3; width: 127px; height: 144px;display: block;}
+.inScore{position: absolute;bottom: 40px; right: 45px; clear: left; z-index: 2;}
+.inScore span, .finalScore span{font-size: 60px; font-family: Arial,sans-serif,"Apple LiGothic"; color: #fff; float: left; padding: 50px 20px 0 0; }
+.inGetCodeBtnOv, .inActivityBtnOv{position: absolute; top:0;left: 0;z-index: 2;}
+/*---- prize ------*/
+#section1{background:#fff;}
+.prizeHeader{position: absolute; top: 0; left: 0; width:100%;background: #84d8d1; padding: 30px 0; text-align: center;}
+.prizeContent{position:absolute;top:220px;left: 50%;width: 990px; height: 500px; margin-left:-495px;}
+.prizeContent > div{position: absolute;}
+.prTree1{top:0; left: 300px; z-index: 1;}
+.prTree2{top:340; left: 300px; z-index: 1;}
+.prPic1{top:0; left: -85px;z-index: 3;}
+.prPic1Txt{top:380px; left: -85px;z-index: 3;}
+.prPic2{top:0; right: 0;z-index: 3;}
+.prPic2Txt{top:50px; left: 340px;z-index: 3;}
+.prPic3{top:300px; left: 340px;z-index: 3;}
+.prPic3Txt{top:370px; right: -10px;z-index: 3;}
+.inTitle, .inForest, .inCake, .inTxt, .inSquirrel, .inGetCodeBtn, .inActivityBtn, .prTree1, .prTree2, .prPic1, .prPic1Txt, .prPic2, .prPic2Txt, .prPic3, .prPic3Txt{opacity: 0;}
+/*====== contents ======*/
+
+
+/*------ register ------*/
+.register .label, .lbbn, .tosMomer{font-weight: bold;}
+#reg-form{width: 740px; margin: 0 auto;}
+.register .rowElem .short{padding-left: 36px;}
+.register .account{margin: 0 auto; width: 380px;}
+.register .other{border-bottom: 1px solid #647775; padding-bottom: 15px; margin-bottom: 17px;}
+.register form.jqtransformdone .other div.rowElem{height: 30px; padding-top: 14px;margin: 0 auto;}
+.register form.jqtransformdone .other div.rowElem label{margin-top:0;}
+.register form.jqtransformdone .other div.item1{width: 340px;}
+.register form.jqtransformdone .other div.item2{width: 730px;}
+.register .other span.jqTransformCheckboxWrapper{margin-top:0;}
+.register form.jqtransformdone div.tosMomer{width: 405px;margin: 0 auto;}
+.register form.jqtransformdone div.submitBtn{width: 429px; margin: 0 auto;}
+a#btn-tos-member{background: url("../images/register_t20.gif") 0 0 no-repeat; width: 204px;height: 22px;display: inline-block; margin-bottom: -5px;}
+a#btn-tos-member:hover{background-position: 0 -22px;}
+.registerSquirrel{position: absolute;bottom: 100px; left: 150px;}
+.modal-fancybox .fancybox-skin { -webkit-box-shadow: none !important; -moz-box-shadow: none !important; box-shadow: none !important; background: none; }
+.modal-fancybox .fancybox-close { width: 30px; height: 30px; top: -15px; right: -15px; background: url("../images/modal-close.png"); }
+
+.modal { display: none; width: 600px; background: white;}
+.modal p{font-size: 13px;}
+.modal-inner { padding: 20px; }
+.modal-title { margin-bottom: 30px; color: #78c835; line-height: 1.1; font-size: 22px; font-weight: 700; letter-spacing: 1px; }
+.modal-action { margin-top: 20px; }
+.confirmbox .modal-title { padding-top: 20px; text-align: center; }
+.sosume h3{ font-size: 15px; color: #6bb82b;}
+.checkBox{background: url("../images/check_bg.png"); width: 584px;height: 203px;display: none; margin: 20px;}
+.checkCloseBtn{position: absolute;top: 10px; right: 10px; display: block; background: url("../images/check_close_btn.png") 0 0 no-repeat; width: 35px; height: 34px;z-index: 99;}
+a.checkCloseBtn:hover{background-position: 0 -34px;}
+.bn-action{position: absolute; bottom: 30px; left: -272px; margin-left: 50%; display: block; background: url("../images/check_btn.gif") 0 0 no-repeat; width: 543px; height: 51px; z-index: 3;}
+a.bn-action:hover{background-position: 0 -50px;}
+.success{background: url("../images/success_bg.png"); width: 584px;height: 203px;display: none; margin: 20px;}
+/*------ login ------*/
+.login .account, .login .connect{float: left; width: 49.9%; padding: 50px 0;}
+.login .account{border-right: 1px solid #868686;}
+.login > div > form, .login > div > div{width: 430px;margin-right: auto;margin-left: auto;}
+.login .field, .login .formBtn{margin-bottom: 47px;}
+.login .submit{margin-bottom: 31px;}
+.login .formBtn{display: block; width: 429px; height: 59px; cursor: pointer;}
+#login-form .submit{background:url("../images/login_btn.gif") 0 0 no-repeat;}
+#forgot-form .submit{background:url("../images/forgot_btn.gif") 0 0 no-repeat;}
+.login .connect .fb{background:url("../images/login_fb_btn.gif") 0 0 no-repeat;}
+.login .connect .google{background:url("../images/login_google_btn.gif") 0 0 no-repeat;}
+#login-form .submit:hover, #forgot-form .submit:hover, .connect .fb:hover, .connect .google:hover{background-position: 0 -59px;}
+.login .getpsw, .login .register{font-size: 23px;}
+.login a.getpsw{color: #595757; margin-left: 43px;}
+.login a.register{color: #231815; margin-left: 164px;}
+.login a.getpsw:hover, .login a.register:hover{color: #fff;}
+.loginSquirrel, .inviteTxt{position: absolute;bottom: 140px;right: 170px; margin:0;}
+.inviteTxt{bottom: 100px;right:-10px;}
+/*------ final ------*/
+#finalLeftBox, #finalRightBox{position: absolute; top:0; left: 0; width: 50%; height: 100%}
+#finalRightBox{left:50%;background: #fff;}
+.finalContentsBox{position: absolute; top:50%; left: 50%; height: 600px; width:470px; margin: -300px 0 0 -235px; text-align: center;}
+.finalContentsBox img{height: 494px; margin-bottom:30px;}
+a.finalFbBtn{display: block; width: 370px;height: 66px; background: url("../images/final_fb_btn.gif") 0 0 no-repeat; margin: 0 auto;}
+a.finalFbBtn:hover{background-position: 0 -66px;}
+.finalAppBar{width: 100%; clear: both; height: 66px;}
+a.finalgoogleBtn, a.finalAppleBtn{display:block; width: 225px; height: 66px;background: url("../images/final_app_btn.gif") 0 0 no-repeat;}
+a.finalgoogleBtn{background-position: 0 0; float: left;}
+a.finalgoogleBtn:hover{background-position: 0 -66px;}
+a.finalAppleBtn{background-position: -225px 0; float: right;}
+a.finalAppleBtn:hover{background-position: -225px -66px;}
+.finalScore{position: absolute;right: 45px; clear: left; z-index: 2;top: 20px;}
+.finalScore span{color: #67a29e;}
+a.finalActivityBtn{position: absolute; top:70px; left: 220px;display: block; width: 155px;height: 45px;background: url("../images/final_activity_btn.gif") 0 0 no-repeat;z-index: 3;}
+a.finalActivityBtn:hover{background-position: 0 -45px;}
+#fbLikeBox{display: none;}
+a.fbLikeCloseBtn{position: absolute; top:110px; right: 68px; background: url("../images/like_close_btn.png") 0 0 no-repeat; display: block; width: 33px; height: 33px;}
+a.fbLikeCloseBtn:hover{background-position: 0 -33px;}
+a.fbLikeDoneBtn{position: absolute; bottom:15px; left: 50%; margin-left: -32px; background: url("../images/like_close_txt_btn.gif") 0 0 no-repeat; display: block; width: 64px; height: 12px;}
+a.fbLikeDoneBtn:hover{background-position: 0 -12px;}
+.fbBox{width: 398px; height: 68px; background: #fff; position: absolute; bottom: 60px; left: 50%;margin-left: -199px;}
+/*------ activity ------*/
+#activity #logo{width:167px; position: absolute; top:30px; left: 25px; }
+#activity{margin: 0 auto; width: 1200px; position: relative;}

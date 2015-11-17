@@ -1,0 +1,83 @@
+html, body{overflow-x: hidden;}
+img{width: 100%;}
+div{position: relative;}
+p{padding-top: 0.6em;}
+a, input, textarea{outline: none;hlbr:expression(this.onFocus=this.blur()); color: #000;}
+ol li{list-style:decimal;}
+ul li{list-style: disc;}
+#wrapper{position: absolute; width: 100%; height: 100%; min-height: 600px; min-width: 370px; font-family:"微軟正黑體","Microsoft JhengHei","Helvetica Neue",Helvetica,Arial,sans-serif,"Apple LiGothic"; font-size: 0.8em; line-height: 1.6em;color: #717071; overflow-x: hidden;}
+.indexTxt, .activityBtn, #logo,.whoTxt, .mSquirrel1, .tail, .nameTxt, .finalTxt, .reviewBtn, .downloadBtn, .fbBtn, .nameBg, .nameBg > div, .activityTxtBox > img, .activityTxt h3 > i{position: absolute;}
+#copyright, #logo{z-index: 10;}
+#copyright{margin: 5% 0 0 2%; color: #888; font-size: 0.5em;clear: both;}
+#logo{top:2%; left: 2%; width: 30%;}
+.purpleTxt{color: #7e308c; padding-left: 4em;}
+.greenTxt{color:#1ea939;}
+.highlightTxt{color: #e85513;font-weight: bold;}
+
+
+/*====== nav ======*/
+nav{margin: 5% 0 0 25%; width: 70%;}
+a{display: block;}
+.whoBtn{width: 55%; float: left;}
+.whoBtn2{width: 50%;float: right;}
+.goNameBtn{width: 40%; float: right;}
+.activityNavBtn, .activityNavBtn2{width: 45%; margin-left: 10%; float: left;}
+.activityNavBtn2{margin: 0;}
+.activityNavBtn3{width: 45%; margin-left: 55%;}
+
+/*====== index ======*/
+.index_title{width: 85%;margin: 15% 0 0 10%;}
+.indexTxtBox{margin-top: -10%;}
+.indexTxt{top:0; left: 0; z-index: 2; width: 76%; margin:28% 12%;}
+.indexTxt .highlightTxt{font-size: 1.4em;}
+.indexTS{width: 76%; margin:2% 0 0 24%;}
+.activityBtn{width: 20%; top: 0; right: 10%; z-index: 2;}
+
+/*====== who ======*/
+.whoTxtBox{margin-top: 30%;}
+.whoTxt{top: 15%; left: 10%; width: 85%; line-height: 1.4em;}
+.whoTxt h2, .finalTxt h2{color: #a28977; font-style: 1.6em; font-weight: bold;}
+.mSquirrel1{width:50%; z-index: 2; top:-20%; right: 5%;}
+.tail{top:0; z-index: 2;}
+
+/*====== name ======*/
+.nameTxtBox{margin-top: 10%;}
+.nameTxt{width: 90%; margin: 15% 0 0 10%;}
+.nameTxt form{width: 60%; margin:10% 0 0 15%;}
+.nameTxt form input, .nameTxt form textarea{border:none; background:none; overflow: hidden;font-family:"微軟正黑體","Microsoft JhengHei","Helvetica Neue",Helvetica,Arial,sans-serif,"Apple LiGothic";font-size: 1.2em;}
+.nameTxt form textarea{height: 9em; margin-top: 8%;line-height: 2.2em;resize: none;width: 100%;}
+.nameTxt ol{font-size: 0.6em; line-height: 1.4em;width:85%; margin:-5% 0 0 5%;}
+.nameTxt ol > span{display: block; margin-left: -1.8em; color: #804f21;}
+.sendBtn{width: 40%;margin:-2% 0 0 40%}
+
+/*====== finalT ======*/
+.finalTxtBox{margin: 25% 0 0 5%; width: 95%;}
+.finalTxt{width: 80%;top: 15%; left: 15%;}
+.finalTxt h2{color: #e85513;}
+.finalTxt p{padding: 0;}
+.reviewBtn, .downloadBtn{width: 15%;}
+.reviewBtn{bottom: 35%; left: 25%;}
+.downloadBtn{bottom: 30%; left: 43%;}
+.fbBtn{width: 30%;bottom: 43%; right: 10%;}
+.nameBg{ width: 70%;top:0; right: 5%;}
+.nameBg > div{width: 5em; transform:rotate(10deg); top:6%; right: 3%; font-size: 1.4em; text-align: center;}
+.goticketBtn{width: 45%; margin: -10% 0 20% 2%;}
+
+/*====== activity ======*/
+.activityTxtBox{margin:1% auto 10%; width: 98%;}
+.activityTxtBox > img{height: 107%; z-index: 1; top:-4%;}
+.activityTxt{width: 80%; margin:25% 10%; z-index: 2;}
+.activityTxt h2{width: 90%; margin: 0 5%;}
+.activityTxt h3{padding:2em 0 0 5%; font-size: 1.2em; font-weight: bold; display: block; position: relative;}
+.activityTxt h3 > i{width: 5%; display: block;left: 0; top:2em;}
+.activityTxt p, .activityTxt ol{padding-left: 5%; width: 93%;}
+.activityTxt p{padding-top: 0;}
+.activityTxt ol li{margin-left: 1.4em;}
+.actColorB{color: #6a3906;}
+.actColorO{color: #e85513;}
+.actColorY{color: #f19500;}
+.actColorK{color: #b18046;}
+
+@media screen and (min-width: 420px) {
+    #wrapper{font-size: 1.4em;}
+}

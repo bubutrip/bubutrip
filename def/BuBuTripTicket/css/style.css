@@ -1,0 +1,92 @@
+@charset "utf-8";
+.clear{clear:both;height:1px;}
+.hide {font-size:0; line-height:0; color:#fff; text-indent:-5000px; }
+body{ font-family:"微軟正黑體","Microsoft JhengHei","Helvetica Neue",Helvetica,Arial,sans-serif,"Apple LiGothic"; font-size: 1.2em; line-height: 1.8em;color: #604c3f;}
+body, html, .fullpage, .section{overflow:hidden;}
+div{position: relative;}
+p{padding-bottom: 0.8em;}
+a{outline: none;hlbr:expression(this.onFocus=this.blur()); color: #000; text-decoration: none;}
+ol li{list-style:decimal;}
+h2{width:433px; text-align: center; margin: 0 auto;}
+h3{color: #f9ec00; font-size: 1.6em; font-weight: bold; padding-left: 10%;}
+.conBox1 form input::-ms-clear {display: none;}
+.whiteTxt{color: #fff;}
+.brownText{color: #796a56;}
+.bigTxt{font-size: 1.4em;}
+#copyright, #logo, #bgPiank{position: fixed;z-index: 10;}
+#copyright{bottom: 10px;right: 10px; color: #fff; font-size: 12px;}
+#logo{top:30px; left: 35px;width: 203px;}
+#bgPiank{left: 50%;margin-left: -578px;width: 1156px; text-align: center; z-index: 1;}
+#fullpage{z-index: 2;}
+
+.index, .contents{height: 1px;width: 1px; margin: 0 auto;}
+.index{height:720px;}
+.index > div, .contents > div, .inBox1 > div, .inBox2 > div, .inBox2 p, .inActivity, .inTitleLogo, .registerBtn, #scrollBox, #scrollBox a, .conBox1, .prize1, .prize2, .conBox2, .conBoxT, .goNameBtn, .squirrelDialog, .squirrelDialog p, .touchMe, .touchMeOv, .inSquirrel img, .inSquirrel2 img, #activity > div, #activity h3 > i, .voucherBox, .goname{position: absolute;}
+.inBox1, .inBox2 p{z-index: 2;}
+.inSquirrel,.inTitle, .inActivity{z-index: 3;}
+{z-index: 3;}
+
+/*====== index ======*/
+#scrollBox{height: 48px;width:230px;text-align: center;right:20%;z-index: 2;}
+#scrollBox a{width: 100%; left:0;}
+.top{opacity: 0;}
+.inBox1{width:470px;}
+.inBox1 p{margin: 0 auto;}
+.inBox2{width:449px;}
+.inTitle{width:357px;}
+.inTitleLogo{width:136px;z-index: 2; top:-5px;}
+.inActivity{top:500px; z-index: 3; width:109px; display: block;}
+.inSquirrel, .inSquirrel2{width:244px;top:390px;}
+.registerBtn{width:260px;top:360px;z-index: 5;}
+.inTitle > img, .inTitleLogo > img{display: none;}
+.inSquirrel, .inBox1, .inBox2, .inActivity, #scrollBox a, .registerBtn, .touchMeOv, #bgPiank img{opacity: 0;}
+/*------ vocther ------*/
+.voucherBox{background: url('../images/voucher_bg.png') 0 0 no-repeat; width:540px; height: 674px; z-index: 10; left: 50%; top:50%; margin:-337px 0 0 -270px;}
+.voucherBox h2{color: #e85513; font-weight: bold; padding-top:60px;}
+.voucherNoBox, .voucherNote{margin: 10px 0 0 45px;}
+.voucherNoBox div{float: left;padding: 20px 0;}
+.voucherTxtBox{width:363px;height: 24px;background: url('../images/voucher_tbox.jpg') 0 0 no-repeat; text-align: center;font-size: 24px; }
+.voucherNote{width: 85%;}
+.voucherNote > ol{padding-left:24px;}
+.voucherNote i{background: url('../images/voucher_dizc.jpg') 0 0 no-repeat; width:19px; height:20px; padding-right: 20px; margin-left: -20px;}
+.voucherClose{position: absolute; width: 30px; height: 30px;background: url('../images/close.png') 0 0 no-repeat; top:-10px; right: -10px; display: block; z-index: 2;opacity: 0.8;}
+.voucherClose:hover{opacity: 1;}
+
+/*====== contents ======*/
+.conBox1 p{padding-left: 10%;}
+.prize1{width:203px;}
+.prize2{width:170px;}
+.conBox2{left:20px;}
+.map{width:286px;}
+.conBoxT{top:0;line-height:1.6em;}
+.inSquirrel2{top:0;}
+.squirrelDialog{width:318px;top:-20px;}
+.touchMe{width:103px;top:-30px;}
+
+@media screen\0 {
+	#bgPiank{top: 26%;}
+}
+/*------ activity ------*/
+#activity > div{width:1192px;left: 50%; margin-left:-596px; text-align: center;}
+#activity > div.activityTxt{text-align: left;}
+#activity h2{width:430px; margin: 0;}
+#activity h3{padding:2em 0 0 35px; font-size: 1.2em; font-weight: bold; display: block; position: relative;}
+#activity h3 > i{width: 33px; display: block;left: 0; top:1.46em;}
+#activity p, #activity ol{padding-left: 35px; width: 93%;}
+#activity p{padding-top: 0;}
+#activity ol li{margin-left: 1.4em;}
+#activity ul li{list-style: disc;}
+.actScrollLine{z-index: 1; width: 18px; margin-left:12px; }
+.actScrollBtn{width:43px; height:55px;position: absolute;}
+.scroll-pane .mCustomScrollBox .mCSB_scrollTools{padding:0;width: 43px;}
+.scroll-pane .mCSB_scrollTools .mCSB_draggerRail{width:43px;background: url('../images/activity_scroll_line.jpg') center 0 no-repeat; z-index: 1;}
+.scroll-pane .mCSB_scrollTools .mCSB_dragger{height:55px;}
+.scroll-pane .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{width:43px;background: url('../images/activity_scroll_btn.png') 0 0 no-repeat;z-index: 2;}
+.scroll-pane{height:420px;margin: -190px auto 0;}
+.actColorB{color: #6a3906;}
+.actColorO{color: #e85513;}
+.actColorY{color: #f19500;}
+.actColorK{color: #b18046;}
+.actFL div{float: left; width: 65%;}
+.actFL div.actImg{width: 30%;}
+.goname{width: 130px;z-index: 2; display: block;}

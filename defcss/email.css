@@ -1,0 +1,10 @@
+#event_email table{
+	width: 540px;
+	height: 675px;
+	background: url("http://www.bubutrip.com.tw/event/defimg/email.png");
+}
+#event_email table td{
+	padding-top: 139px;
+	text-align: center;
+	font-size: 30px;
+}

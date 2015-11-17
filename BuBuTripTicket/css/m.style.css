@@ -1,0 +1,99 @@
+html, body{overflow-x: hidden;}
+img{width: 100%;}
+div{position: relative;}
+p{padding-bottom: 0.8em;}
+a{outline: none;hlbr:expression(this.onFocus=this.blur()); color: #000; text-decoration: none; display: block;}
+ol li{list-style:decimal;}
+h2{text-align: center; margin: 0 auto;}
+h3{color: #f9ec00; font-size: 1.4em; font-weight: bold;}
+#wrapper{position: absolute; width: 100%; height: 100%; min-height: 600px; min-width: 320px; font-family:"微軟正黑體","Microsoft JhengHei","Helvetica Neue",Helvetica,Arial,sans-serif,"Apple LiGothic"; font-size: 0.8em; line-height: 1.6em;color: #333; overflow-x: hidden;}
+.activityBtn, .prizeListBtn, #logo, .indexWhoBtn, .activityTxtBox > img, .activityTxt h3 > i, .contentsBox1 > img, .whoSquirrel, .whoSquirrel p, .prize, .voucherTxt, .voucherTxtBox img, .voucherTxtBox span, .voucherNote i{position: absolute;}
+#copyright, #logo{z-index: 10;}
+#copyright{margin: 5% 0 0 2%; color: #888; font-size: 0.5em;clear: both;}
+#logo{top:2%; left: 2%; width: 30%;}
+.whiteTxt{color: #fff;}
+.brownText{color: #796a56;}
+.bigTxt{font-size: 1.4em;}
+.contentsBox1{margin-top: 25%; overflow-y: hidden;}
+.contentsBox1 > img{z-index: 1;top:0;}
+.contentsBox1 > div{z-index: 2;}
+
+/*====== nav ======*/
+nav{margin:-30% 0 0 25%; width: 70%;z-index: 5;}
+nav.nav2{margin-top: 25%;}
+nav a{width: 47%;}
+.floatL{float: left;}
+.floatR{float: right;}
+
+/*====== index ======*/
+.indexTxt{margin:45% 0 65% 37%;}
+.indexTxt p{padding-left: 5%;}
+.activityBtn{width: 25%; top: 55%; right: 10%; z-index: 2;}
+.prizeListBtn{width: 25%; top: 55%; right: 36%; z-index: 2;}
+.indexWhoBtn{width: 37%; top: 30%;left: 1%; z-index: 2;}
+
+/*====== who ======*/
+.whoTxt{color: #fff;margin: 28% 0 45% 12%; line-height: 1.5em;}
+.contentsBox1 > div.whoSquirrel{width:100%; z-index: 3; top:0;}
+
+/*====== meeting ======*/
+.meetingTxt{margin-bottom: 50%;}
+.meetingTxt h2{margin-top: 10%;}
+.meetingTxt h3, .meetingTxt p{width: 80%; margin: 0 auto;}
+.meetingTxt p.prizeTxt{width: 12em;}
+.prize{bottom:-25%; left: 0;}
+
+/*====== vucher ======*/
+.voucherBox{margin-top: 20%;}
+.voucherTxt{width: 80%; margin: 0 10%;}
+.voucherTxt h2{color: #e85513; font-weight: bold; text-align: center; padding-top: 10%;}
+.voucherNoBox{width: 80%; margin: 5% auto 0;}
+.voucherNoBox div{float: left;padding: 1em 0;}
+.voucherTxtBox{width:70%;height: 24px;}
+.voucherTxtBox span{z-index: 2; display: block; text-align: center; width: 100%;}
+.voucherTxtBox img{z-index: 1;left: 0; top:0.5em;}
+.voucherNote > ol{padding-left:24px;}
+.voucherNote i{width:1em; height:1.2em; padding-right: 1.2em; margin-left: -1.2em; display: block;}
+
+/*====== activity ======*/
+.activityTxtBox{margin:1% auto 10%; width: 98%;}
+.activityTxtBox > img{height: 107%; z-index: 1; top:-4%;}
+.activityTxt{width: 80%; margin:25% 10%; z-index: 2; font-size: 1.2em; line-height: 1.4em;}
+.activityTxt h2{width: 90%; margin: 0 5%;}
+.activityTxt h3{padding:0.5em 0 0 5%; font-size: 1.2em; font-weight: bold; display: block; position: relative;}
+.activityTxt h3 > i{width: 5%; display: block;left: 0; top:0.5em;}
+.activityTxt p, .activityTxt ol{padding-left: 5%; width: 93%;}
+.activityTxt p{padding-top: 0;}
+.activityTxt ol li{margin-left: 1.4em;}
+.activityTxt ul li{list-style: disc;}
+.actColorB{color: #6a3906;}
+.actColorO{color: #e85513;}
+.actColorY{color: #f19500;}
+.actColorK{color: #b18046;}
+
+@media screen and (max-device-width: 321px) {
+    #wrapper{font-size: 0.7em;}
+    .meetingTxt p.prizeTxt{margin-top: -1em; padding-bottom: 2.5em;}
+    .meetingTxt h3, .meetingTxt p{width: 85%;}
+    .prize{bottom: -12%;}
+    .whoTxt{margin-left:10%;line-height: 1.4em;}
+    .voucherNoBox{margin-top: 0;}
+    .voucherNote{font-size: 0.6em; line-height: 1.3em;}
+    .voucherNoBox div{padding: 0.5em 0;}
+}
+@media screen and (min-width: 420px) {
+    #wrapper{font-size: 1.4em;}
+}
+@media screen and (min-width: 480px) {
+    #wrapper{font-size: 1em;}
+}
+@media screen and (min-width: 568px) {
+    #wrapper{font-size: 1.2em;}
+}
+@media screen and (min-width: 728px) {
+    #wrapper{font-size: 1.6em;}
+}
+@media screen and (min-width: 960px) {
+    #wrapper{font-size: 1.8em;}
+    .voucherTxt{font-size: 1.2em;line-height: 1.5em; width: 74%; margin: 0 13%;}
+}

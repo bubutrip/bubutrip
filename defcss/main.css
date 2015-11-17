@@ -1,0 +1,89 @@
+.disnone{display: none;}
+.sendBtn{cursor: pointer;}
+.sendBtn img{cursor: pointer;}
+.fb img,.google img{cursor: pointer;}
+#fbox{
+	width: 240px;
+	height: 130px;
+	background: #FFF;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -50px;
+	margin-left: -120px; 
+	/* display: none; */
+}
+#fbox span{
+	padding: 4px; 
+	cursor: pointer;
+	font-size: 10pt;
+	color: #5890ff;
+}
+#fbox2{
+	width:232px;
+	margin-bottom: 10px;
+	background: #627aad;
+	color: #FFF;
+	font-size: 15px;
+	padding : 5px;
+	text-align: left;
+}
+#mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.7);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 99;
+	/* display: none; */
+}
+.prelative{
+	position: relative;
+}
+.closebtn{
+	position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 999;
+    color: #FFF;
+    font-size: 20px;
+    cursor: pointer;
+}
+#popupview{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: rgba(0,0,0,.7);
+	z-index: 999;
+}
+#popupview .imgrng{
+	margin: 0px auto;
+	width: 85%;
+	padding-top: 50px;
+}
+
+#popupview .bigimgrng{
+	margin: 0px auto;
+    width: 600px;
+    height: 400px;
+    padding-top: 45px;
+    text-align: center;
+}
+
+#popupview .bigimgrng img{
+	
+}
+
+#popupview .closebtn{
+	position: absolute; 
+	width: 30px; 
+	height: 30px;
+	background: url('/event/BuBuTripTicket/images/close.png') 0 0 no-repeat; 
+    top: 30px;
+    right: -10px;
+	display: block; 
+	z-index: 999;
+	opacity: 0.8;
+	
+}

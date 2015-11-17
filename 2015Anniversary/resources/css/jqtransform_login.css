@@ -1,0 +1,89 @@
+@charset "utf-8";
+form.jqtransformdone label{
+	margin-top:12px;
+	margin-right: 10px;
+	display: block;
+	float:left;
+}
+form.jqtransformdone div.rowElem{
+	clear:both;
+	height: 60px;
+}
+
+/* -------------
+ * Inputs
+ * ------------- */
+.jqTransformInputWrapper {
+	background: transparent url(../images/img/login/input/input_text_left.gif) no-repeat left top;
+	height: 60px;
+	padding: 0px;
+	float:left;
+}
+
+.jqTransformInputInner {
+	background: transparent url(../images/img/login/input/input_text_right.gif) no-repeat top right;
+	padding: 0px;
+	margin: 0px;
+}
+
+.jqTransformInputInner div {
+	height: 60px;
+	margin:0px 0px 0px 8px;
+}
+
+.jqTransformInputInner div input {
+	font-family: Arial,"微軟正黑體";
+	font-size:23px;
+	line-height: 24px;
+	vertical-align: middle;
+	height: 24px;
+	color:#fff;	
+	border: none;
+	padding: 0px 8px;
+	margin: 19px 0;
+	background:transparent;
+}
+
+/*  IE6 */
+* html .jqTransformInputInner div input {
+	padding: 6px 0 0 0;
+	margin: 0 0 0 -8px;
+	height:24px;
+}
+/* Ie7 */
+*+ html .jqTransformInputInner div input {
+	padding: 6px 0 0 0;
+	margin-left:-10px;
+	height:24px;
+}
+
+/*hover*/
+.jqTransformInputWrapper_hover{ background-position: left -60px ;}
+.jqTransformInputWrapper_hover div.jqTransformInputInner{ background-position: right -60px ;}
+
+/*focus*/
+.jqTransformInputWrapper_focus{ background-position: left -120px ;}
+.jqTransformInputWrapper_focus div.jqTransformInputInner{ background-position: right -120px ;}
+
+
+
+.jqTransformSafari .jqTransformInputInner div {
+	position: relative;
+	overflow: hidden;
+	margin:0px 8px;
+}
+.jqTransformSafari .jqTransformInputInner div input {
+	background-color: none;
+	position: absolute;
+	top: -10px;
+	left: -2px;
+	height: 60px; 
+	padding-left: 4px;
+}
+
+
+/* -------------
+ * Hidden - used to hide the original form elements
+ * ------------- */
+.jqTransformHidden {display: none;}
+.placeholder { color:#666; }
